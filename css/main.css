@@ -196,8 +196,22 @@ header.sticky {
 	margin-top: 40px;
 }
 
-#about-intro figcaption {
-	margin-bottom: 40px;
+#about-intro blockquote {
+	font-family: 'Times', sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 32px;
+	margin: 40px auto;
+	text-align: center;
+	width: 380px;
+}
+
+#about-intro blockquote span {
+	color: #87D187;
+	font-family: 'Avenir Next', sans-serif;
+	font-style: normal;
+	font-weight: 600;
 }
 
 #about-intro a:hover {
@@ -219,7 +233,7 @@ header.sticky {
 #menu-intro h1 {
 	color: rgba(0, 0, 0, .75);
 	font-family: 'Avenir Next', sans-serif;
-	font-size: 40px;
+	font-size: 38px;
 	font-weight: 400;
 	padding: 20px 10px;
 	text-align: center;
@@ -228,9 +242,9 @@ header.sticky {
 #menu-intro h2 {
 	color: rgba(0, 0, 0, .75);
 	font-family: 'Avenir Next', sans-serif;
-	font-size: 40px;
+	font-size: 38px;
 	font-weight: 400;
-	padding: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
