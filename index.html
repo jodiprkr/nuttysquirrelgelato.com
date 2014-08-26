@@ -31,6 +31,23 @@
             });
             });
         </script>
+
+        <!-- sticky nav scroll -->
+        <script>
+            $(window).scroll(function() {
+            if ($(this).scrollTop() > 1){  
+                $('header').addClass("sticky");
+            }
+            else{
+                $('header').removeClass("sticky");
+            }
+        });
+        </script>
+
+
+        <!-- jquery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
     </head>
 
     <body>
