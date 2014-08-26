@@ -187,11 +187,6 @@ header.sticky {
 	line-height: 43px;
 }
 
-#about-intro a {
-	color: #6699FF;
-	text-decoration: none;
-}
-
 #about-intro figure {
 	margin-top: 40px;
 }
@@ -225,9 +220,7 @@ header.sticky {
 #menu-intro {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
-	position: relative;
 	padding: 22px 16px;
-	margin: -650px 0 480px 0;
 }
 
 #menu-intro h1 {
@@ -240,6 +233,67 @@ header.sticky {
 }
 
 #menu-intro h2 {
+	color: rgba(0, 0, 0, .75);
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 38px;
+	font-weight: 400;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#menu-text h2 {
+	border-bottom: 1px solid #47B3E2;
+	color: rgba(0, 0, 0, .75);
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	margin: 80px 0 60px 0;
+	padding-bottom: 25px;
+}
+
+#menu-text p {
+	font-family: 'Lato', sans-serif;
+	font-size: 23px;
+	line-height: 43px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#menu-text a {
+	color: #64A4FF;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 100px;
+	text-decoration: none;
+}
+
+#menu-text a:hover {
+	color: #99CCFF;
+}
+
+#menu-text img {
+	margin-top: 15px;
+}
+
+#menu-text figcaption {
+	color: #666;
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 100;
+	margin-bottom: 50px;
+	padding-top: 8px;
+}
+
+#catering-intro {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	padding: 22px 16px;
+}
+
+#catering-intro h1 {
 	color: rgba(0, 0, 0, .75);
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 38px;
