@@ -104,15 +104,22 @@ li .selected a:active {
 }
 
 header {
-	position: fixed;
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0.75);
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    background-color: rgba(255, 255, 255, .5);
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+        
+header.sticky {
 	box-shadow: 0px 0px 5px #666;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: block;
-    z-index: 99;
+	font-size: 24px;
+	height: 70px; 
+	background-color: #fff;
+	opacity: 1;
+	padding-bottom: 20px;
+	width: 100%;
 }
 
 #logo {
@@ -129,29 +136,28 @@ header {
 	text-decoration: none;
 }
 
-nav {
-	margin: 80px auto 20px auto;
-	width: 520px;
+#nav {
+	margin-top: 40px;
+	text-align: center;
 }
 
-nav li {
-	color: rgba(0, 0, 0, .75);
+#nav li {
 	display: inline-block;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
-	padding: 0 15px 10px 15px;
+	padding: 0 16px;
 	text-align: center;
 	text-transform: uppercase;
 }
 
-nav li a {
+#nav a {
 	color: rgba(0, 0, 0, .75);
 	text-decoration: none;
 }
 
-nav li a:hover {
-	color: #fff;
+#nav a:hover {
+	color: red;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
