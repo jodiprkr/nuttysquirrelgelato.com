@@ -183,7 +183,7 @@ header.sticky {
 
 #about-intro p {
 	font-family: 'Lato', sans-serif;
-	font-size: 24px;
+	font-size: 25px;
 	line-height: 43px;
 }
 
@@ -302,6 +302,26 @@ header.sticky {
 	text-align: center;
 }
 
+#catering-text h2 {
+	border-bottom: 1px solid #47B3E2;
+	color: rgba(0, 0, 0, .75);
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 100;
+	text-align: center;
+	margin: 80px 0 60px 0;
+	padding-bottom: 25px;
+}
+
+#catering-text p {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
 #contact {
 	margin-top: 70px;
 }
@@ -357,11 +377,9 @@ footer p {
 	color: #666;
 	font-family: 'Arial', sans-serif;
 	font-size: 11px;
-	float: left;
 	width: 300px;
 	display: block;
-	margin-left: 10px;
-	margin-top: 15px;
+	margin: 20px auto;
 }
 
 #social {
