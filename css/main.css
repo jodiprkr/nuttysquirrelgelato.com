@@ -82,6 +82,11 @@ table {
 	max-width: 3000px;
 }
 
+.wrap-col-1 {
+	margin: 0 50px 0 200px;
+	width: 600px;
+}
+
 .bg {
 	margin: 0 auto;
 	max-width: 3000px;
@@ -340,41 +345,44 @@ header.sticky {
 }
 
 #contact-info {
-	background-color: rgba(255, 255, 250, 0.93);
+	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
-	margin: -920px 0 130px 0;
+	margin: -840px -600px 517px 550px;
+	padding: 22px 16px;
 	padding: 30px;
 	position: relative;
 	text-align: center;
 }
 
 #contact-info h1 {
-	color: #FF99CC;
-	font-family: 'Sacramento', sans-serif;
-	font-size: 60px;
+	color: #000;
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 40px;
 	font-weight: 400;
 	padding-bottom: 15px;
 	text-align: center;
 }
 
 #contact-info p {
-	color: #666;
+	color: #fff;
 	font-family: 'Lato', sans-serif;
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 45px;
 	margin: 0 auto;
 }
 
 #contact-info a {
-	color: #64A4FF;
+	color: #99CCFF;
 	font-family: 'Lato', sans-serif;
-	font-size: 24px;
-	line-height: 43px;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 100px;
 	text-decoration: none;
 }
 
 #contact-info a:hover {
-	color: #99CCFF;
+	color: #64A4FF;
 }
 
 #contact-info img {
