@@ -355,10 +355,11 @@ header.sticky {
 }
 
 #contact-info h1 {
+	border-bottom: 1px solid #fff;
 	color: #000;
 	font-family: 'Avenir Next', sans-serif;
 	font-size: 40px;
-	font-weight: 400;
+	font-weight: 300;
 	padding-bottom: 15px;
 	text-align: center;
 }
@@ -367,8 +368,8 @@ header.sticky {
 	color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-size: 22px;
-	line-height: 45px;
-	margin: 0 auto;
+	line-height: 26px;
+	margin: 30px auto;
 }
 
 #contact-info a {
@@ -387,6 +388,11 @@ header.sticky {
 
 #contact-info img {
 	margin: 20px 0 20px 0;
+}
+
+#contact-info i {
+	color: rgba(0, 0, 0, .75);
+	padding: 10px 5px;
 }
 
 footer {
