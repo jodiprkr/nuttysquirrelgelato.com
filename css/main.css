@@ -79,12 +79,12 @@ table {
 .wrap-lg {
 	margin: 0 auto;
 	min-width: 1024px;
-	max-width: 1500px;
+	max-width: 3000px;
 }
 
 .bg {
 	margin: 0 auto;
-	max-width: 1440px;
+	max-width: 3000px;
 	min-width: 1280px;
 }
 
