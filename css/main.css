@@ -4,8 +4,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 sall, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -109,6 +108,7 @@ li .selected a:active {
 }
 
 header {
+	display: block;
     position: fixed;
     width: 100%;
     height: 110px;
@@ -129,18 +129,17 @@ header.sticky {
 }
 
 #logo {
-	margin: 15px 0 0 25px;
+	margin: 12px 0 0 40px;
 	position: absolute;
 }
 
-#logo a {
+#logo img {
 	cursor: pointer;
-	text-decoration: none;
 }
 
 #nav {
-	margin-top: 40px;
-	text-align: center;
+	margin: 40px auto 0 auto;
+	width: 530px;
 }
 
 #nav li {
@@ -156,11 +155,12 @@ header.sticky {
 
 #nav a {
 	color: rgba(0, 0, 0, .75);
+	cursor: pointer;
 	text-decoration: none;
 }
 
 #nav a:hover {
-	color: red;
+	color: #C5EDC5;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -175,7 +175,17 @@ header.sticky {
 
 .fa {
 	color: rgba(0, 0, 0, .8);
+	cursor: pointer;
+	display: inline-block;
 	padding: 10px;
+}
+
+.fa:hover {
+	color: #C5EDC5;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 #about {
@@ -354,7 +364,7 @@ header.sticky {
 #contact-info {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
-	margin: -840px -600px 380px 550px;
+	margin: -840px -600px 385px 550px;
 	padding: 22px 16px;
 	padding: 30px;
 	position: relative;
@@ -399,7 +409,16 @@ header.sticky {
 
 #contact-info i {
 	color: rgba(0, 0, 0, .75);
+	font-size: 20px;
 	padding: 10px 5px;
+}
+
+#contact-info i:hover {
+	color: #C5EDC5;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 footer {
@@ -413,7 +432,7 @@ footer p {
 	font-size: 11px;
 	width: 300px;
 	display: block;
-	margin: 20px auto;
+	margin: 25px auto;
 }
 
 #error {

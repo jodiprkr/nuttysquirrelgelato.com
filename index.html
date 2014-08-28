@@ -40,12 +40,11 @@
             $(window).scroll(function() {
             if ($(this).scrollTop() > 1){  
                 $('header').addClass("sticky");
-                $("img[src='img/logo.png']").attr("src","img/logo-3.png");
-                
+                $("img[src='img/logo.png']").attr("src","img/logo-2.png");
             }
             else{
                 $('header').removeClass("sticky");
-                $("img[src='img/logo-3.png']").attr("src","img/logo.png");
+                $("img[src='img/logo-2.png']").attr("src","img/logo.png");
             }
 
         });
@@ -60,8 +59,8 @@
     <body>
 
         <header class="wrap-lg">
-            <a href="#home" id="logo" class="group"><img src="img/logo.png" alt="Nutty Squirrel logo"></a>
-                <ol class="group" id="nav">
+            <a href="#home" id="logo"><img src="img/logo.png" alt="Nutty Squirrel logo"></a>
+                <ol id="nav">
                     <li class="selected"><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#menu">Menu</a></li>
@@ -170,8 +169,8 @@
 
                 <p>e-mail: <a href="mailto:info@nuttysquirrelgelato.com" target="_top">info@nuttysquirrelgelato.com</a></p>
 
-                <i class="fa fa-facebook fa-lg"></i>
-                <i class="fa fa-instagram fa-lg"></i>
+                <a href="https://www.facebook.com/NuttySquirrelGelato"><i class="fa fa-facebook fa-lg"></i></a>
+                <a href="http://instagram.com/NuttySquirrelGelato"><i class="fa fa-instagram fa-lg"></i></a>
             </section>
         </div><!-- /.wrap-col-1 -->
 
