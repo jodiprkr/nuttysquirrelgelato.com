@@ -40,10 +40,12 @@
             $(window).scroll(function() {
             if ($(this).scrollTop() > 1){  
                 $('header').addClass("sticky");
+                $("img[src='img/logo.png']").attr("src","img/logo-3.png");
                 
             }
             else{
                 $('header').removeClass("sticky");
+                $("img[src='img/logo-3.png']").attr("src","img/logo.png");
             }
 
         });
@@ -58,7 +60,7 @@
     <body>
 
         <header class="wrap-lg">
-            <h1><a href="#home" id="logo" class="group"><img src="img/logo.png" alt="Nutty Squirrel logo"></a></h1>
+            <a href="#home" id="logo" class="group"><img src="img/logo.png" alt="Nutty Squirrel logo"></a>
                 <ol class="group" id="nav">
                     <li class="selected"><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -67,8 +69,8 @@
                     <li><a href="#contact">Contact</a></li>
                 </ol>
             <div id="fa-icons">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-instagram"></i>
+                <a href="https://www.facebook.com/NuttySquirrelGelato"><i class="fa fa-facebook"></i></a>
+                <a href="http://instagram.com/NuttySquirrelGelato"><i class="fa fa-instagram"></i></a>
             </div>
         </header><!-- /.wrap-lg-->
 
@@ -160,7 +162,7 @@
 
                 <p>26636 Maple Valley-Black Diamond Road SE Suite H-100 Maple Valley, WA 98038</p>
 
-                <a href ="https://www.google.com/maps/place/Nutty+Squirrel+Gelato/@47.362851,-122.020282,17z/data=!3m1!4b1!4m2!3m1!1s0x5490601f86602fc9:0x3312552cc37551fb">Get Directions</a>
+                <a href ="https://www.google.com/maps/place/Nutty+Squirrel+Gelato/@47.362851,-122.020282,17z/data=!3m1!4b1!4m2!3m1!1s0x5490601f86602fc9:0x3312552cc37551fb" target="_blank">Get Directions</a>
 
                 <p>Open 11am-9pm daily</p>
 

@@ -133,12 +133,8 @@ header.sticky {
 	position: absolute;
 }
 
-#logo img {
-	width: 120px;
-	cursor: pointer;
-}
-
 #logo a {
+	cursor: pointer;
 	text-decoration: none;
 }
 
