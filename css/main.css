@@ -196,10 +196,10 @@ header.sticky {
 #about-intro h2 {
 	border-bottom: 1px solid #47B3E2;
 	color: rgba(0, 0, 0, .75);
-	font-family: 'Avenir Next', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 34px;
 	font-style: normal;
-	font-weight: 100;
+	font-weight: 200;
 	text-align: center;
 	margin: 100px 0 60px 0;
 	padding-bottom: 25px;
@@ -207,10 +207,10 @@ header.sticky {
 
 #about-intro p {
 	color: rgba(0, 0, 0, .85);
-	font-family: 'Lato', sans-serif;
-	font-size: 26px;
+	font-family: "azo-sans-web",sans-serif;
+	font-size: 24px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 43px;
 }
 
@@ -232,9 +232,9 @@ header.sticky {
 
 #about-intro blockquote span {
 	color: #87D187;
-	font-family: 'Avenir Next', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 #about-intro a:hover {
@@ -255,37 +255,46 @@ header.sticky {
 
 #menu-intro h1 {
 	color: rgba(0, 0, 0, .75);
-	font-family: 'Avenir Next', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 38px;
-	font-weight: 400;
+	font-style: normal;
+	font-weight: 300;
 	padding: 20px 10px;
 	text-align: center;
 }
 
 #menu-intro h2 {
 	color: rgba(0, 0, 0, .75);
-	font-family: 'Avenir Next', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 38px;
-	font-weight: 400;
+	font-style: normal;
+	font-weight: 300;
 	padding-bottom: 20px;
 	text-align: center;
+}
+
+#menu-intro span {
+	font-family: "grafolita-script", italic;
+	font-size: 40px;
 }
 
 #menu-text h2 {
 	border-bottom: 1px solid #47B3E2;
 	color: rgba(0, 0, 0, .75);
-	font-family: 'Avenir Next', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 34px;
 	font-style: normal;
-	font-weight: 100;
+	font-weight: 200;
 	text-align: center;
 	margin: 100px 0 60px 0;
 	padding-bottom: 25px;
 }
 
 #menu-text p {
-	font-family: 'Lato', sans-serif;
-	font-size: 23px;
+	font-family: "azo-sans-web",sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 300;
 	line-height: 43px;
 	text-align: center;
 	margin-bottom: 40px;
@@ -309,10 +318,10 @@ header.sticky {
 
 #menu-text figcaption {
 	color: #666;
-	font-family: 'Avenir Next', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 16px;
 	font-style: italic;
-	font-weight: 100;
+	font-weight: 200;
 	margin-bottom: 50px;
 	padding-top: 8px;
 }
@@ -331,15 +340,16 @@ header.sticky {
 
 #catering-intro span {
 	color: rgb(0, 0, 0);
-	font-family: 'Dancing Script', sans-serif; 
+	font-family: "grafolita-script", italic;
 	font-size: 44px;
 }
 
 #catering-intro h1 {
 	color: rgba(0, 0, 0, .75);
-	font-family: 'Avenir Next', sans-serif;
+	font-family: "azo-sans-web", sans-serif;
 	font-size: 38px;
-	font-weight: 400;
+	font-style: normal;
+	font-weight: 300;
 	line-height: 50px;
 	margin: 0 auto;
 	padding: 30px 0;
@@ -350,18 +360,20 @@ header.sticky {
 #catering-text h2 {
 	border-bottom: 1px solid #47B3E2;
 	color: rgba(0, 0, 0, .75);
-	font-family: 'Avenir Next', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 34px;
 	font-style: normal;
-	font-weight: 100;
+	font-weight: 200;
 	text-align: center;
 	margin: 100px 0 60px 0;
 	padding-bottom: 25px;
 }
 
 #catering-text p {
-	font-family: 'Lato', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 24px;
+	font-style: normal;
+	font-weight: 300;
 	line-height: 40px;
 	text-align: center;
 	margin-bottom: 40px;
@@ -384,27 +396,30 @@ header.sticky {
 #contact-info h1 {
 	border-bottom: 1px solid #fff;
 	color: #000;
-	font-family: 'Avenir Next', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 30px;
-	font-weight: 400;
+	font-style: normal;
+	font-weight: 300;
 	padding-bottom: 15px;
 	text-align: center;
 }
 
 #contact-info p {
 	color: #fff;
-	font-family: 'Lato', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 22px;
+	font-style: normal;
+	font-weight: 200;
 	line-height: 26px;
 	margin: 30px auto;
 }
 
 #contact-info a {
 	color: #99CCFF;
-	font-family: 'Lato', sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 22px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 200;
 	margin-bottom: 100px;
 	text-decoration: none;
 }
@@ -445,30 +460,31 @@ footer p {
 	margin: 25px auto;
 }
 
-#error {
-	background-color: rgba(255, 178, 230, 0.5);
+#error-intro {
+	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
-	margin: -650px 0 440px 0;
+	margin: -650px auto 390px auto;
 	padding: 30px;
 	position: relative;
 }
 
-#error h1 {
-	color: #fff;
-	font-family: 'Sacramento', sans-serif;
+#error-intro h1 {
+	color: rgba(0, 0, 0, .8);
+	font-family: "grafolita-script", italic;	
 	font-size: 60px;
 	font-weight: 100;
 	text-align: center;
 }
 
-#error h2 {
-	color: #fff;
-	font-family: 'Brandon-Grotesque', sans-serif;
-	font-size: 34px;
+#error-intro p {
+	color: rgba(0, 0, 0, .75);
+	font-family: "azo-sans-web", sans-serif;
+	font-size: 38px;
 	font-style: normal;
-	font-weight: 100;
-	line-height: 42px;
-	margin-top: 30px;
+	font-weight: 300;
+	line-height: 50px;
+	margin: 0 auto;
+	padding: 30px 0;
 	text-align: center;
-	text-transform: uppercase;
+	width: 480px;
 }
