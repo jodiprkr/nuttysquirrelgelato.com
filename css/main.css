@@ -61,6 +61,30 @@ table {
 /* Style 
 /////////////////////////////////////////////////////////////////// */
 
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 100px; 
+    border: 1px solid black;
+}
+
+#slide {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: 1s;
+}
+
+.wrapper:hover #slide {
+    transition: 1s;
+    left: 0;
+}
+
+
+
 .wrap-sm {
 	margin: 0 auto;
 	width: 700px;
@@ -230,7 +254,7 @@ header.sticky {
 	width: 380px;
 }
 
-#about-intro blockquote span {
+#about-intro blockquote mark {
 	color: #87D187;
 	font-family: "azo-sans-web",sans-serif;
 	font-style: normal;
@@ -273,7 +297,7 @@ header.sticky {
 	text-align: center;
 }
 
-#menu-intro span {
+#menu-intro mark {
 	font-family: "grafolita-script", italic;
 	font-size: 40px;
 }
@@ -338,7 +362,7 @@ header.sticky {
 	width: 600px;
 }
 
-#catering-intro span {
+#catering-intro mark {
 	color: rgb(0, 0, 0);
 	font-family: "grafolita-script", italic;
 	font-size: 44px;
