@@ -126,11 +126,6 @@ table {
   clear: both;
 }
 
-li .selected a:active {
-	color: #FFB2E6;
-    border-bottom: 1px solid #FFB2E6;
-}
-
 header {
 	display: block;
     position: fixed;
@@ -254,7 +249,7 @@ header.sticky {
 	width: 380px;
 }
 
-#about-intro blockquote mark {
+#about-intro blockquote span {
 	color: #87D187;
 	font-family: "azo-sans-web",sans-serif;
 	font-style: normal;
@@ -297,9 +292,9 @@ header.sticky {
 	text-align: center;
 }
 
-#menu-intro mark {
+#menu-intro span {
 	font-family: "grafolita-script", italic;
-	font-size: 40px;
+	font-size: 45px;
 }
 
 #menu-text h2 {
@@ -362,7 +357,7 @@ header.sticky {
 	width: 600px;
 }
 
-#catering-intro mark {
+#catering-intro span {
 	color: rgb(0, 0, 0);
 	font-family: "grafolita-script", italic;
 	font-size: 44px;
@@ -485,23 +480,22 @@ footer p {
 }
 
 #error-intro {
-	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
-	margin: -650px auto 390px auto;
+	margin: -700px auto 440px auto;
 	padding: 30px;
 	position: relative;
 }
 
 #error-intro h1 {
-	color: rgba(0, 0, 0, .8);
+	color: rgba(255, 255, 255, .85);
 	font-family: "grafolita-script", italic;	
-	font-size: 60px;
+	font-size: 70px;
 	font-weight: 100;
 	text-align: center;
 }
 
 #error-intro p {
-	color: rgba(0, 0, 0, .75);
+	color: rgba(0, 0, 0, .7);
 	font-family: "azo-sans-web", sans-serif;
 	font-size: 38px;
 	font-style: normal;

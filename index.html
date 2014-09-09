@@ -47,7 +47,7 @@
                 $('header').removeClass("sticky");
                 $("img[src='img/logo-2.png']").attr("src","img/logo.png");
             }
-            if ($('.menu-section:in-viewport').length > 0) {
+            if ($('.page-section:in-viewport').length > 0) {
                 $('a[href="#menu"]').first().text ("ok");
             } 
             else {
@@ -71,7 +71,7 @@
         <header class="wrap-lg">
             <a href="#home" id="logo"><img src="img/logo.png" alt="Nutty Squirrel logo"></a>
                 <ol id="nav">
-                    <li class="selected"><a href="#home">Home</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#catering">Catering</a></li>
@@ -98,20 +98,20 @@
                     <img src="img/family.jpg" alt="" />
                 </figure>
 
-                <blockquote>"We want our shop to be a place to <mark>celebrate</mark> our local culture and <mark>support</mark> the community.”</blockquote>
+                <blockquote>"We want our shop to be a place to <span>celebrate</span> our local culture and <span>support</span> the community.”</blockquote>
                 
                 <p>We wanted our name to reflect our community as well as our product, which is how “Nutty Squirrel” was born – to represent our beautiful, forested surroundings here in Maple Valley, and the fresh nuts we use, like hazelnut, pistachio, and peanuts.</p> 
             </section><!-- /.about-intro-->
         </div><!-- /.wrap-md-->
 
-        <div class="bg menu-section" id="menu"> 
+        <div class="bg" id="menu"> 
             <img src="img/pans.jpg" alt="" />
         </div><!-- /.bg-->
 
         <div class="wrap-sm">
             <section id="menu-intro">
                 <h1>From market to table.</h1>
-                <h2>All natural, <mark>seasonal</mark> ingredients.</h2>
+                <h2>All natural, <span>seasonal</span> ingredients.</h2>
             </section><!-- /#menu-intro-->
         </div><!-- /.wrap-sm-->
         
@@ -120,8 +120,7 @@
             
             <p>True to the Northwest, our flavors change with the seasons. Our case rotates on a daily basis to provide our customers with only the freshest gelato and sorbetto.</p>
             
-            <p>For today’s flavors, please visit our <a href="https://www.facebook.com/NuttySquirrelGelato" target="_blank" title="Find us on Facebook">Facebook</a>.
-            
+            <p>For today’s flavors, please visit our <a href="https://www.facebook.com/NuttySquirrelGelato" target="_blank" title="Find us on Facebook">Facebook</a>.</p>
             <figure>
                 <img src="img/pops.jpg" alt="">
                 <figcaption>Handmade gelato pops in a variety of flavors, including stracciatella and pistachio.</figcaption> 
@@ -144,7 +143,7 @@
 
         <div class="wrap-sm">
             <section id="catering-intro">
-                <h1>Make your next occassion <mark>truly</mark> special.</h1>
+                <h1>Make your next occassion <span>truly</span> special.</h1>
             </section>
         </div><!-- /.wrap-sm-->
 
