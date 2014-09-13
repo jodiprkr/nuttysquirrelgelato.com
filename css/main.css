@@ -61,69 +61,20 @@ table {
 /* Style 
 /////////////////////////////////////////////////////////////////// */
 
-.wrapper {
-    position: relative;
-    overflow: hidden;
-    width: 100px;
-    height: 100px; 
-    border: 1px solid black;
-}
-
-#slide {
-    position: absolute;
-    left: -100px;
-    width: 100px;
-    height: 100px;
-    background: blue;
-    transition: 1s;
-}
-
-.wrapper:hover #slide {
-    transition: 1s;
-    left: 0;
-}
-
-
-
-.wrap-sm {
-	margin: 0 auto;
-	width: 700px;
-}
-
-.wrap-md {
+.wrap-mid {
 	margin: 0 auto;
 	width: 730px;
 }
 
-.wrap-md img {
-	width: 100%;
+.wrap-right {
+	margin: 80px 0 0 750px;
+	width: 600px;
 }
 
 .wrap-lg {
 	margin: 0 auto;
 	min-width: 1024px;
 	max-width: 3000px;
-}
-
-.wrap-col-1 {
-	margin: 0 50px 0 200px;
-	width: 600px;
-}
-
-.bg {
-	margin: 0 auto;
-	max-width: 3000px;
-	min-width: 600px;
-}
-
-.bg img {
-	width: 100%;
-}
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 header {
@@ -136,12 +87,8 @@ header {
     z-index: 3;
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
-
-
-	overflow: hidden;
-
 }
-        
+
 header.sticky {
 	box-shadow: 0px 0px 5px #666;
 	font-size: 16px;
@@ -213,12 +160,38 @@ header.sticky {
 	transition: all 0.3s ease-in-out;
 }
 
-#about {
-	color: transparent;
-	padding-top: 50px;
+article {
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
 }
 
-#about-intro h2 {
+article>.inner {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 50px 0;
+}
+
+#content {
+	height: 100%;
+	width: 100%;
+}
+
+#home {
+	background: url(../img/strawberry.jpg);
+	background-size: cover;
+	height: 750px;
+}
+
+#about>.inner {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+#about h2 {
 	border-bottom: 1px solid #47B3E2;
 	color: rgba(0, 0, 0, .75);
 	font-family: "azo-sans-web",sans-serif;
@@ -230,20 +203,21 @@ header.sticky {
 	padding-bottom: 25px;
 }
 
-#about-intro p {
+#about p {
 	color: rgba(0, 0, 0, .85);
 	font-family: "azo-sans-web",sans-serif;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 300;
 	line-height: 43px;
+	text-align: left;
 }
 
-#about-intro figure {
+#about figure {
 	margin-top: 40px;
 }
 
-#about-intro blockquote {
+#about blockquote {
 	color: rgba(0, 0, 0, .85);
 	font-family: 'Vollkorn', serif;
 	font-size: 24px;
@@ -255,50 +229,36 @@ header.sticky {
 	width: 380px;
 }
 
-#about-intro blockquote span {
+#about blockquote span {
 	color: #87D187;
 	font-family: "azo-sans-web",sans-serif;
 	font-style: normal;
 	font-weight: 500;
 }
 
-#about-intro a:hover {
-	color: #99CCFF;
-}
-
 #menu {
-	margin-top: 100px;
+	background: url(../img/pans.jpg);
+	background-size: cover;
 }
 
-#menu-intro {
+#menu dl {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
-	margin: -600px 0 517px 0;
-	padding: 22px 16px;
+	margin: 220px auto;
+	padding: 35px 0;
 	position: relative;
 }
 
-#menu-intro h1 {
+#menu dt {
 	color: rgba(0, 0, 0, .75);
 	font-family: "azo-sans-web",sans-serif;
 	font-size: 38px;
 	font-style: normal;
 	font-weight: 300;
-	padding: 20px 10px;
-	text-align: center;
+	padding: 10px;
 }
 
-#menu-intro h2 {
-	color: rgba(0, 0, 0, .75);
-	font-family: "azo-sans-web",sans-serif;
-	font-size: 38px;
-	font-style: normal;
-	font-weight: 300;
-	padding-bottom: 20px;
-	text-align: center;
-}
-
-#menu-intro span {
+#menu span {
 	font-family: "grafolita-script", italic;
 	font-size: 45px;
 }
@@ -339,6 +299,7 @@ header.sticky {
 
 #menu-text img {
 	margin-top: 15px;
+	max-width: 730px;
 }
 
 #menu-text figcaption {
@@ -349,37 +310,28 @@ header.sticky {
 	font-weight: 200;
 	margin-bottom: 50px;
 	padding-top: 8px;
+	text-align: left;
 }
 
 #catering {
-	margin-top: 100px;
+	background: url(../img/trike.jpg);
+	background-size: cover;
 }
 
-#catering-intro {
+#catering h1 {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
-	margin: -600px auto 537px auto;
+	margin: 250px auto;
+	padding: 35px;
 	position: relative;
-	width: 600px;
-}
+	max-width: 500px;
 
-#catering-intro span {
-	color: rgb(0, 0, 0);
-	font-family: "grafolita-script", italic;
-	font-size: 44px;
-}
-
-#catering-intro h1 {
 	color: rgba(0, 0, 0, .75);
-	font-family: "azo-sans-web", sans-serif;
+	font-family: "azo-sans-web",sans-serif;
 	font-size: 38px;
 	font-style: normal;
 	font-weight: 300;
 	line-height: 50px;
-	margin: 0 auto;
-	padding: 30px 0;
-	text-align: center;
-	width: 480px;
 }
 
 #catering-text h2 {
@@ -404,21 +356,34 @@ header.sticky {
 	margin-bottom: 40px;
 }
 
-#contact {
-	margin-top: 100px;
+#catering-text img {
+	margin-top: 15px;
+	max-width: 730px;
 }
 
-#contact-info {
+#catering span{
+	color: rgb(0, 0, 0);
+	font-family: "grafolita-script", italic;
+	font-size: 44px;
+}
+
+#contact {
+	background: url(../img/pint.jpg);
+	background-size: cover;
+}
+
+#contact-text {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
-	margin: -840px -600px 390px 550px;
+	margin-top: 85px;
+	margin-bottom: 290px;
 	padding: 22px 16px;
 	padding: 30px;
 	position: relative;
 	text-align: center;
 }
 
-#contact-info h1 {
+#contact-text h1 {
 	border-bottom: 1px solid #fff;
 	color: #000;
 	font-family: "azo-sans-web",sans-serif;
@@ -429,7 +394,7 @@ header.sticky {
 	text-align: center;
 }
 
-#contact-info p {
+#contact-text p {
 	color: #fff;
 	font-family: "azo-sans-web",sans-serif;
 	font-size: 22px;
@@ -439,7 +404,7 @@ header.sticky {
 	margin: 30px auto;
 }
 
-#contact-info a {
+#contact-text a {
 	color: #99CCFF;
 	font-family: "azo-sans-web",sans-serif;
 	font-size: 22px;
@@ -449,21 +414,21 @@ header.sticky {
 	text-decoration: none;
 }
 
-#contact-info a:hover {
+#contact-text a:hover {
 	color: #64A4FF;
 }
 
-#contact-info img {
+#contact-text img {
 	margin: 20px 0 20px 0;
 }
 
-#contact-info i {
+#contact-text i {
 	color: rgba(0, 0, 0, .75);
 	font-size: 20px;
 	padding: 10px 5px;
 }
 
-#contact-info i:hover {
+#contact-text i:hover {
 	color: rgba(255, 255, 255, 0.75);
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;

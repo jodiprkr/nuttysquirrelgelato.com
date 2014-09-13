@@ -176,7 +176,8 @@ article>.inner {
 
 #home {
 	background: url(../img/strawberry.jpg);
-	background-size: contain;
+	background-size: cover;
+	height: 750px;
 }
 
 #about>.inner {
@@ -352,6 +353,12 @@ article>.inner {
 #catering-text img {
 	margin-top: 15px;
 	max-width: 730px;
+}
+
+#catering span{
+	color: rgb(0, 0, 0);
+	font-family: "grafolita-script", italic;
+	font-size: 44px;
 }
 
 #contact {
