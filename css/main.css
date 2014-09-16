@@ -72,7 +72,6 @@ table {
 
 .wrap-lg {
 	margin: 0 auto;
-	min-width: 1024px;
 	max-width: 3000px;
 }
 
@@ -183,11 +182,6 @@ article>.inner {
 	background: url(../img/strawberry.jpg);
 	background-size: cover;
 	height: 750px;
-}
-
-#about>.inner {
-	padding-left: 150px;
-	padding-right: 150px;
 }
 
 #about h2 {
