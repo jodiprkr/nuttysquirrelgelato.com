@@ -170,7 +170,7 @@ article {
 article>.inner {
 	display: table-cell;
 	vertical-align: middle;
-	padding: 50px 0;
+	padding: 100px 0;
 }
 
 #content {
@@ -192,7 +192,7 @@ article>.inner {
 	font-style: normal;
 	font-weight: 200;
 	text-align: center;
-	margin: 100px 0 60px 0;
+	margin-bottom: 60px;
 	padding-bottom: 25px;
 }
 
@@ -264,7 +264,7 @@ article>.inner {
 	font-style: normal;
 	font-weight: 200;
 	text-align: center;
-	margin: 100px 0 60px 0;
+	margin-bottom: 60px;
 	padding-bottom: 25px;
 }
 
@@ -275,7 +275,7 @@ article>.inner {
 	font-weight: 300;
 	line-height: 43px;
 	text-align: center;
-	margin-bottom: 40px;
+	padding-bottom: 30px;
 }
 
 #menu-text a {
@@ -291,7 +291,7 @@ article>.inner {
 }
 
 #menu-text img {
-	margin-top: 15px;
+	margin-top: 50px;
 	max-width: 730px;
 }
 
@@ -301,7 +301,6 @@ article>.inner {
 	font-size: 16px;
 	font-style: italic;
 	font-weight: 200;
-	margin-bottom: 50px;
 	padding-top: 8px;
 	text-align: left;
 }
@@ -335,7 +334,7 @@ article>.inner {
 	font-style: normal;
 	font-weight: 200;
 	text-align: center;
-	margin: 100px 0 60px 0;
+	margin-bottom: 60px;
 	padding-bottom: 25px;
 }
 
