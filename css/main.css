@@ -66,10 +66,6 @@ table {
 	width: 730px;
 }
 
-.wrap-right {
-	width: 600px;
-}
-
 .wrap-lg {
 	margin: 0 auto;
 	max-width: 3000px;
@@ -130,7 +126,7 @@ header.sticky {
 }
 
 #nav a:hover {
-	color: #C5EDC5;
+	color: #FFC2C2;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -151,7 +147,7 @@ header.sticky {
 }
 
 .fa:hover {
-	color: #C5EDC5;
+	color: #FFC2C2;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -193,7 +189,7 @@ article>.inner {
 	font-weight: 200;
 	text-align: center;
 	margin-bottom: 60px;
-	padding-bottom: 25px;
+	padding: 40px 0 25px 0;
 }
 
 #about p {
@@ -360,7 +356,7 @@ article>.inner {
 }
 
 #contact {
-	background: url(../img/pint.jpg);
+	background: url(../img/pint-2.jpg);
 	background-size: cover;
 }
 
@@ -368,16 +364,18 @@ article>.inner {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
 	margin-top: 85px;
-	margin-bottom: 290px;
+	margin-bottom: 100px;
 	padding: 22px 16px;
 	padding: 30px;
 	position: relative;
 	text-align: center;
+	width: 450px;
 }
 
 #contact-text h1 {
-	border-bottom: 1px solid #fff;
-	color: #000;
+	border-bottom: 1px solid;
+	border-color: rgba(0, 0, 0, .5);
+	color: rgba(0, 0, 0, .75);
 	font-family: "azo-sans-web",sans-serif;
 	font-size: 30px;
 	font-style: normal;
@@ -387,7 +385,7 @@ article>.inner {
 }
 
 #contact-text p {
-	color: #fff;
+	color: rgba(0, 0, 0, .75);
 	font-family: "azo-sans-web",sans-serif;
 	font-size: 22px;
 	font-style: normal;
@@ -397,7 +395,7 @@ article>.inner {
 }
 
 #contact-text a {
-	color: #99CCFF;
+	color: #3385FF;
 	font-family: "azo-sans-web",sans-serif;
 	font-size: 22px;
 	font-style: normal;
@@ -407,7 +405,7 @@ article>.inner {
 }
 
 #contact-text a:hover {
-	color: #64A4FF;
+	color: #70B8FF;
 }
 
 #contact-text img {
@@ -421,7 +419,7 @@ article>.inner {
 }
 
 #contact-text i:hover {
-	color: rgba(255, 255, 255, 0.75);
+	color: #FFC2C2;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
