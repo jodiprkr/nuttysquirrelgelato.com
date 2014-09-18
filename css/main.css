@@ -356,7 +356,7 @@ article>.inner {
 }
 
 #contact {
-	background: url(../img/pint-2.jpg);
+	background: url(../img/pint.jpg);
 	background-size: cover;
 }
 
@@ -389,7 +389,7 @@ article>.inner {
 	font-family: "azo-sans-web",sans-serif;
 	font-size: 22px;
 	font-style: normal;
-	font-weight: 200;
+	font-weight: 300;
 	line-height: 26px;
 	margin: 30px auto;
 }
@@ -399,7 +399,7 @@ article>.inner {
 	font-family: "azo-sans-web",sans-serif;
 	font-size: 22px;
 	font-style: normal;
-	font-weight: 200;
+	font-weight: 300;
 	margin-bottom: 100px;
 	text-decoration: none;
 }
