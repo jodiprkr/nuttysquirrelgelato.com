@@ -76,6 +76,15 @@ table {
 	max-width: 3000px;
 }
 
+.offscreen {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
 header {
 	background-color: rgba(255, 255, 255, .5);
 	display: block;
