@@ -476,14 +476,13 @@ footer p {
 	margin: 25px auto;
 }
 
-#error-intro {
-	border-radius: 5px;
-	margin: -700px auto 440px auto;
-	padding: 30px;
-	position: relative;
+#error {
+	background: url(../img/green.jpg);
+	background-size: cover;
+	height: 900px;
 }
 
-#error-intro h1 {
+#error h1 {
 	color: rgba(255, 255, 255, .85);
 	font-family: "grafolita-script", italic;	
 	font-size: 70px;
@@ -491,7 +490,7 @@ footer p {
 	text-align: center;
 }
 
-#error-intro p {
+#error p {
 	color: rgba(0, 0, 0, .7);
 	font-family: "azo-sans-web", sans-serif;
 	font-size: 38px;
