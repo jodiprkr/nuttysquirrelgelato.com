@@ -131,7 +131,7 @@ header #logo img {
 
 header #nav {
   margin: 105px auto 0 auto;
-  width: 530px;
+  width: 730px;
 }
 
 header #nav li {
@@ -187,7 +187,7 @@ header.sticky #logo {
 
 header.sticky #nav {
   margin: 40px auto 0 auto;
-  width: 530px;
+  width: 730px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -238,7 +238,7 @@ article>.inner {
 #home h1 {
 	color: #fff;
 	font-family: "azo-sans-web",sans-serif;
-	font-size: 46px;
+	font-size: 38px;
 	font-style: normal;
 	font-weight: 200;
 	line-height: 55px;
@@ -430,6 +430,37 @@ article>.inner {
 	color: rgb(0, 0, 0);
 	font-family: "grafolita-script", italic;
 	font-size: 44px;
+}
+
+#recognition h2 {
+	border-bottom: 1px solid #47B3E2;
+	color: rgba(0, 0, 0, .75);
+	font-family: "azo-sans-web",sans-serif;
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 200;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+#recognition p {
+	font-family: "azo-sans-web",sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 40px;
+	padding-top: 20px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#recognition img {
+	margin-top: 60px;
+	max-width: 730px;
+}
+
+#recognition .last {
+  padding-bottom: 60px;
 }
 
 #contact {
